@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Test</title>
+</head>
+<body>
+    <h1>Flask Test</h1>
+    <p>This is a simple test to check your Flask application.</p>
+    <form action="http://127.0.0.1:5000/predict" method="post">
+        <label for="companyTicker">Enter Stock Ticker (e.g., GOOG):</label>
+        <input type="text" id="companyTicker" name="companyTicker" required>
+        <button type="submit">Predict Closing Price</button>
+    </form>
+</body>
+</html>
